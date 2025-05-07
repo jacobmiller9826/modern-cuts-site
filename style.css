@@ -1,0 +1,99 @@
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+}
+#services ul {
+  list-style: none;
+  padding-left: 0;
+}
+#services li {
+  background: #2c2c2c;
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 5px solid #888;
+}
+
+/* Button */
+button {
+  background-color: #444;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #666;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #111;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* Chatbot Modal */
+.chatbot-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.chatbot-content {
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  color: white;
+}
+
+.chatbot-content h2 {
+  margin-bottom: 20px;
+}
+
+.chatbot-content input,
+.chatbot-content select,
+.chatbot-content button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  font-size: 14px;
+  background-color: #444;
+  color: white;
+}
+
+.chatbot-content button:hover {
+  background-color: #666;
+}
